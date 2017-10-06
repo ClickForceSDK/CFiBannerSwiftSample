@@ -17,5 +17,4 @@ FOUNDATION_EXPORT const unsigned char iMFADVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <iMFAD/PublicHeader.h>
 #import "MFBannerView.h"
 #import "MFInterstitialView.h"
-#import "MFNativeAd.h"
 

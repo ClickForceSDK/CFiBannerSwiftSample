@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222896D91F87658600CB0513 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222896D71F87656100CB0513 /* iMFAD.framework */; };
 		228392DE1F67BE79000C4692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228392DD1F67BE79000C4692 /* AppDelegate.swift */; };
 		228392E01F67BE79000C4692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228392DF1F67BE79000C4692 /* ViewController.swift */; };
 		228392E31F67BE79000C4692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228392E11F67BE79000C4692 /* Main.storyboard */; };
@@ -15,8 +16,6 @@
 		228392EB1F67BE79000C4692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228392E91F67BE79000C4692 /* LaunchScreen.storyboard */; };
 		228392F61F67BE79000C4692 /* CFiBannerSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228392F51F67BE79000C4692 /* CFiBannerSwiftSampleTests.swift */; };
 		228393011F67BE79000C4692 /* CFiBannerSwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228393001F67BE79000C4692 /* CFiBannerSwiftSampleUITests.swift */; };
-		2283930F1F67BEB4000C4692 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283930E1F67BEB4000C4692 /* iMFAD.framework */; };
-		228393101F67BEB4000C4692 /* iMFAD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2283930E1F67BEB4000C4692 /* iMFAD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				228393101F67BEB4000C4692 /* iMFAD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		222896D71F87656100CB0513 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		228392DA1F67BE79000C4692 /* CFiBannerSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiBannerSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228392DD1F67BE79000C4692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228392DF1F67BE79000C4692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +64,6 @@
 		228392FC1F67BE79000C4692 /* CFiBannerSwiftSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiBannerSwiftSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		228393001F67BE79000C4692 /* CFiBannerSwiftSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFiBannerSwiftSampleUITests.swift; sourceTree = "<group>"; };
 		228393021F67BE79000C4692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2283930E1F67BEB4000C4692 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		228393121F67BEEB000C4692 /* CFiBannerSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFiBannerSwiftSample-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -74,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2283930F1F67BEB4000C4692 /* iMFAD.framework in Frameworks */,
+				222896D91F87658600CB0513 /* iMFAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,14 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222896D81F87658600CB0513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		228392D11F67BE79000C4692 = {
 			isa = PBXGroup;
 			children = (
-				2283930E1F67BEB4000C4692 /* iMFAD.framework */,
+				222896D71F87656100CB0513 /* iMFAD.framework */,
 				228392DC1F67BE79000C4692 /* CFiBannerSwiftSample */,
 				228392F41F67BE79000C4692 /* CFiBannerSwiftSampleTests */,
 				228392FF1F67BE79000C4692 /* CFiBannerSwiftSampleUITests */,
 				228392DB1F67BE79000C4692 /* Products */,
+				222896D81F87658600CB0513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -553,6 +559,7 @@
 				228393071F67BE79000C4692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		228393081F67BE79000C4692 /* Build configuration list for PBXNativeTarget "CFiBannerSwiftSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +568,7 @@
 				2283930A1F67BE79000C4692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2283930B1F67BE79000C4692 /* Build configuration list for PBXNativeTarget "CFiBannerSwiftSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +577,7 @@
 				2283930D1F67BE79000C4692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
