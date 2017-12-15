@@ -9,6 +9,7 @@
 import UIKit
 import iMFAD
 
+
 class ViewController: UIViewController {
 
     var banner:MFBannerView?
@@ -38,6 +39,10 @@ extension ViewController:MFBannerDelegate{
     func requestAdSuccess() {
         //顯示banner廣告
         banner?.show();
+    }
+    
+    func requestAdFail() {
+        print("請求廣告失敗");
     }
 }
 
