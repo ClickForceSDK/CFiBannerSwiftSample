@@ -37,6 +37,7 @@ CGSize MFCGSizeFromGADAdSize(MFAdSize size);
 //回傳廣告查詢狀態
 - (void)requestAdFail;
 - (void)requestAdSuccess;
+- (void)onClickAd;
 @end
 
 

@@ -22,16 +22,14 @@ class ViewController: UIViewController {
         banner?.bannerId = "3783";
         banner?.delegate = self;
         banner?.setAdAutoRefreshTime(30);
-        banner?.setBannerBackgroudColor(UIColor.black);
         self.view.addSubview(banner!);
         banner?.requestAd();
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() { 
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 extension ViewController:MFBannerDelegate{
@@ -43,6 +41,10 @@ extension ViewController:MFBannerDelegate{
     
     func requestAdFail() {
         print("請求廣告失敗");
+    }
+    
+    func onClickAd() {
+        print("Click Ad");
     }
 }
 
