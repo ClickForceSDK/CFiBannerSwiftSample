@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         banner = MFBannerView.init(adSize: MFAdSize320X50, origin: point);
         banner?.bannerId = "3783";
         banner?.delegate = self;
-        banner?.setAdAutoRefreshTime(30);
+        banner?.setAdAutoRefresh(true);
         self.view.addSubview(banner!);
         banner?.requestAd();
     }
