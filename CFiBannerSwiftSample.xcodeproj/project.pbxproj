@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221AE513206DE0350055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE512206DE0350055DD1A /* iMFAD.framework */; };
+		2218141020B6C22400637490 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218140F20B6C22400637490 /* iMFAD.framework */; };
 		228392DE1F67BE79000C4692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228392DD1F67BE79000C4692 /* AppDelegate.swift */; };
 		228392E01F67BE79000C4692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228392DF1F67BE79000C4692 /* ViewController.swift */; };
 		228392E31F67BE79000C4692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228392E11F67BE79000C4692 /* Main.storyboard */; };
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		221AE512206DE0350055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		2218140F20B6C22400637490 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		228392DA1F67BE79000C4692 /* CFiBannerSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiBannerSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228392DD1F67BE79000C4692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228392DF1F67BE79000C4692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AE513206DE0350055DD1A /* iMFAD.framework in Frameworks */,
+				2218141020B6C22400637490 /* iMFAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +103,7 @@
 		228392D11F67BE79000C4692 = {
 			isa = PBXGroup;
 			children = (
+				2218140F20B6C22400637490 /* iMFAD.framework */,
 				228392DC1F67BE79000C4692 /* CFiBannerSwiftSample */,
 				228392F41F67BE79000C4692 /* CFiBannerSwiftSampleTests */,
 				228392FF1F67BE79000C4692 /* CFiBannerSwiftSampleUITests */,
@@ -124,7 +125,6 @@
 		228392DC1F67BE79000C4692 /* CFiBannerSwiftSample */ = {
 			isa = PBXGroup;
 			children = (
-				221AE512206DE0350055DD1A /* iMFAD.framework */,
 				228393121F67BEEB000C4692 /* CFiBannerSwiftSample-Bridging-Header.h */,
 				228392DD1F67BE79000C4692 /* AppDelegate.swift */,
 				228392DF1F67BE79000C4692 /* ViewController.swift */,
