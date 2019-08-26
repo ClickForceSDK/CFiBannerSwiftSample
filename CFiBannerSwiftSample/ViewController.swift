@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         let point = CGPoint(x: (self.view.frame.size.width-320)/2, y: self.view.frame.size.height-50)
         banner = MFBannerView.init(adSize: MFAdSize320X50, origin: point);
-        banner?.bannerId = "3783";
+        banner?.bannerId = "8326";
         banner?.delegate = self;
         banner?.setAdAutoRefresh(true);
         self.view.addSubview(banner!);
